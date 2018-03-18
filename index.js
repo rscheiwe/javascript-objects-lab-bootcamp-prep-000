@@ -10,7 +10,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  object.assign({}, object)
+  object.assign({}, object, [key])
   
   return object
 }
