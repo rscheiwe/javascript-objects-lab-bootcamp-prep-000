@@ -8,3 +8,9 @@ function updateObjectWithKeyAndValue(object, key, value) {
   
   return object
 }
+
+function updateObjectWithKeyAndValue(object, key, value) {
+  Object.assign({}, obj)
+  
+  return object
+}
